@@ -28,7 +28,7 @@ h2 {
     box-shadow: 3px 3px 2px 1px rgb(0, 0, 0);
 }
 header{
-    background-image: url(image/fond.jpg);
+    background-image: url(fond.jpg);
     background-repeat: round;
     width: 100%;
 }
