@@ -1,1 +1,144 @@
-html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+h1,h2,p {
+    font-family: 'Noto sans', 'Courier New';
+}
+h1 {
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border-style: outset;
+    margin-left:500px;
+    margin-right: 500px;
+    text-align: center;
+    justify-content: center;
+}
+h1:hover {
+    color: rgb(0, 0, 0);
+    border-style: inset
+}
+h2 {
+    color: rgb(0, 0, 0);
+    font-size: 29px;
+    justify-content: left;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-left:500px;
+    margin-right: 500px;
+    margin-bottom: 100px;
+    border-style: double;
+    box-shadow: 3px 3px 2px 1px rgb(0, 0, 0);
+}
+header{
+    background-image: url(image/fond.jpg);
+    background-repeat: round;
+    width: 100%;
+}
+#Photo_profil{
+    display: block;
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    border-style: solid;
+    border-radius: 50%;
+    transition-duration: 3s;
+}
+#Photo_profil:hover{
+    box-shadow: 6px 6px 2px 1px white;
+}
+#allexp {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.logoentreprise {
+    display: flex;
+    flex-flow: column;
+    justify-content: left;
+    max-width: 120px;
+    transition-property: border-radius;
+    transition-duration: 3s;
+}
+.logoentreprise:hover {
+    border-radius: 50px;
+}
+.exp {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    width: 250px;
+    margin: 20px;
+    padding-bottom: 10px;
+    padding: 20px;
+    margin-bottom: 50px;
+    border-style: outset;
+    color: rgb(0, 0, 0);
+    transition-property: border-style, font-size, background-color, color, box-shadow;
+    transition-duration: 3s;
+}
+.exp:hover {
+    border-style: inset;
+    font-size: 16.5px;
+    background-color: rgb(102, 102, 102);
+    color: white;
+    box-shadow: 12px 12px 2px 1px rgba(103, 103, 148, 3);
+
+}
+#allcompetences{
+    margin: auto;
+    background: white;
+    border-style: solid;
+    border-color: rgb(31, 31, 31) ;
+    background-color: rgba(255, 255, 255, 0.959);
+    transition-property: background-color, width, border-style, box-shadow;
+    transition-duration: 3s;
+    text-align: center;
+    flex-wrap: wrap;
+    color: rgb(0, 0, 0);
+    width: 600px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-style: outset;
+}
+#allcompetences:hover {
+    background-color: rgb(102, 102, 102);
+    color: rgb(255, 255, 255);
+    width: 100%;
+    border-style: inset;
+    box-shadow: 60px -16px rgba(103, 103, 148, 3);
+}
+a {
+    color:rgb(122, 0, 126);
+}
+#allformations {
+    display: block;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+}
+.photos {
+    margin: auto;
+    max-width: 120px;
+    transition-property: border-radius;
+    transition-duration: 3s;
+}
+.photos:hover {
+    border-radius: 50px;
+}
+.formations {
+    display: flex;
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-style: outset;
+    color: rgb(0, 0, 0);
+    transition-property: border-style, background-color, color, box-shadow, width;
+    transition-duration: 3s;
+}
+.formations:hover {
+    border-style: inset;
+    background-color: rgb(102, 102, 102);
+    color: white;
+    width: 600px;
+    box-shadow: 12px 12px 2px 1px rgba(103, 103, 148, 3);
+}
